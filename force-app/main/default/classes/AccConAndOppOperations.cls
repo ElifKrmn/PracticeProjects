@@ -1,3 +1,4 @@
+
 public class AccConAndOppOperations{
    public static list<account> allAccounts(){
     list<account> allAccs=[select id, name, annualRevenue, type, accountsource from Account];
