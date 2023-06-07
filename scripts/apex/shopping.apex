@@ -1,0 +1,12 @@
+ShoppinngCart t1 = new ShoppinngCart();
+ShoppinngCart.discount=0.05;
+t1.setName('Donald Duck');
+t1.addItem('chips');
+t1.addItems('cookies', 9.99);
+t1.addItems('pancake', 10.25);
+map<string, decimal> m1=new map<string, decimal> {'chips'=>0.00, 'cookies'=> 9.99, 'pancake'=> 10.20, 'ketchup'=> 5.55, 'tea'=>6.00};
+t1.addItems(m1);
+t1.getShopItems();
+t1.getTotalAmount();
+t1.printSummary();
+t1.clearcart();

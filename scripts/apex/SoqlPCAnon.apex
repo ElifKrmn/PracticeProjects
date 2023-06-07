@@ -1,0 +1,2 @@
+SoqlPChild.printContacts();
+SoqlPChild.printAccount();
